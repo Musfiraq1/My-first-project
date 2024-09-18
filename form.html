@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset><legend>your detail</legend>
+        <p>
+        username:
+        <input type="text" name="username" size="15" maxlength="30" />
+      </p>
+      <p>
+        password:
+        <input type="password" name="password" size="15" maxlength="30" />
+      </p>
+    </fieldset>
+    <fieldset><legend>your review</legend>  
+    <p>what did you think of this page:</p>
+      <textarea name="comment" cols="20" rows="4">enter your comment...</textarea>
+      <p>please enter your favourite genre
+      <input type="radio" name="genre" value="rock" checked="checked">rock
+      <input type="radio" name="genre" value="pop" checked="checked">pop
+      <input type="radio" name="genre" value="jazz"checked="checked">jazz
+      <p>select your favourite music:</p>
+      <input type="checkbox" name="service" value="terebin" >tere bin
+      <input type="checkbox" name="service"value="hawayein">hawayein
+      <input type="checkbox" name="service" value="aj rat" checked="checked">aj rat</p>
+      <p>what device you want to listen to music?</p>
+      <select name="device" multiple="multiple">
+        <option value="ipod">ipod </option>
+        <option value="radio" selected="selected">radio</option>
+        <option value="computer" selected="selected">computer</option>
+        <option value="laptop">laptop</option>
+      </select>
+      <p>select your image:</p>
+      <input type="text">
+      <input type="file" name="browse" value="browse"><br>
+      <input type="submit" value="upload">
+      <p>subscibe to this:
+      <input type="text" name="subscribe"></p>
+      <input type="image" src="pictures/file.png" width="100" height="40">
+    </fieldset>
+    <fieldset><legend>age</legend>
+      <label>age: <input type="text" name="age"></label><br>
+      gender:
+      <input type="radio" id="female">
+      <label for="female">female:</label>
+      <input type="radio"id="male">
+      <label for="male">male:</label>
+    </fieldset>
+    <label for="username">departure time:
+      <input type="date" name="depart"><br>
+      <input type="submit">
+    </label>
+    <p>search:
+    <input type="search" name="search"placeholder="enter keyword"></p>
+    <input type="submit" value="search">
+    </form>
+  </body>
+</html>
